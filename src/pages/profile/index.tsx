@@ -1,5 +1,5 @@
-import PostList from "../../components/PostList";
-import Profile from "../../components/Profile";
+import PostList from "components/PostList";
+import Profile from "components/Profile";
 
 const ProfilePage = () => {
   return (

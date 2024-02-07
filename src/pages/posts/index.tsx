@@ -1,7 +1,7 @@
-import PostList from "../../components/PostList";
+import PostList from "components/PostList";
 
 const PostPage = () => {
-  return <PostList />;
+  return <PostList hasNavigation={false} />;
 };
 
 export default PostPage;
