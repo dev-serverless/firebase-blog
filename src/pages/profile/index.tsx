@@ -1,5 +1,13 @@
-const Profile = () => {
-  return <div>Profile</div>;
+import PostList from "../../components/PostList";
+import Profile from "../../components/Profile";
+
+const ProfilePage = () => {
+  return (
+    <>
+      <Profile />
+      <PostList hasNavigation={false} />
+    </>
+  );
 };
 
-export default Profile;
+export default ProfilePage;
