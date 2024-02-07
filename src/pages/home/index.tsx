@@ -1,4 +1,5 @@
 import Carousel from "components/Carousel";
+import Footer from "components/Footer";
 import PostList from "components/PostList";
 
 const HomePage = () => {
@@ -6,6 +7,7 @@ const HomePage = () => {
     <>
       <Carousel />
       <PostList />
+      <Footer />
     </>
   );
 };

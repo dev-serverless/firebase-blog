@@ -326,3 +326,28 @@ footer a:hover {
   color: gray;
   cursor: pointer;
 }
+
+.form--lg {
+  min-height: 70vh;
+  margin-top: 10vh;
+}
+
+.form__title {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.form__link {
+  margin-left: 10px;
+  text-decoration: none;
+  color: gray;
+}
+
+.form__link:hover,
+.form__link:focus {
+  color: #2563ed;
+}
+
+.form__error {
+  color: red;
+}
