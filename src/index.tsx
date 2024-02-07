@@ -5,6 +5,9 @@ import App from "App";
 import { BrowserRouter } from "react-router-dom";
 import Header from "components/Header";
 import Footer from "components/Footer";
+import firebase from "firebaseApp";
+
+console.log(firebase);
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
