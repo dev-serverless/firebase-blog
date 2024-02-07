@@ -252,3 +252,77 @@ footer a:hover {
   font-size: 30px;
   right: 15px;
 }
+
+.form {
+  margin: 0 auto;
+  max-width: 680px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.form input {
+  height: 20px;
+  padding: 10px 10px;
+  font-size: 16px;
+  border-radius: 0.3rem;
+  border: 1px solid lightgray;
+  width: 96%;
+  max-width: 680px;
+}
+
+.form textarea {
+  min-height: 400px;
+  padding: 10px 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  resize: none;
+  border-radius: 0.3rem;
+  border: 1px solid lightgray;
+  width: 96%;
+  max-width: 680px;
+}
+
+.form .form__block {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.form label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.form .form__btn-submit {
+  width: 100%;
+  height: 48px;
+  background-color: #2563ed;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.form .form__btn-submit:hover,
+.form .form__btn-submit:focus {
+  background-color: #0045db;
+}
+
+.post__edit:hover,
+.post__edit:focus,
+.post__edit a:hover,
+.post__edit a:focus {
+  color: black;
+}
+
+.post__edit a {
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+}
+
+.post__delete a {
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+}

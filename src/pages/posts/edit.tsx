@@ -1,5 +1,7 @@
+import PostFrom from "components/PostFrom";
+
 const PostPage = () => {
-  return <div>PostEdit</div>;
+  return <PostFrom />;
 };
 
 export default PostPage;
