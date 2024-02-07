@@ -1,7 +1,13 @@
+import Carousel from "components/Carousel";
 import PostList from "components/PostList";
 
 const HomePage = () => {
-  return <PostList />;
+  return (
+    <>
+      <Carousel />
+      <PostList />
+    </>
+  );
 };
 
 export default HomePage;

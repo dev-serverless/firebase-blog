@@ -211,3 +211,44 @@ footer a:hover {
   transition: 0.3s ease-in-out;
   color: black;
 }
+
+.carousel-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.carousel-img {
+  height: 400px;
+}
+
+.slick-dots.custom-class-name li button:before {
+  font-size: 9px;
+}
+
+.arrow {
+  color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.arrow:hover {
+  color: #fff;
+}
+
+.arrow.prev {
+  font-size: 30px;
+  left: 15px;
+}
+
+.arrow.next {
+  font-size: 30px;
+  right: 15px;
+}
