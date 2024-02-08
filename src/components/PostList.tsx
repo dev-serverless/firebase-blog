@@ -10,8 +10,8 @@ type PostListProps = {
 
 type TabType = "my" | "all";
 
-type PostsProps = {
-  id: string;
+export type PostsProps = {
+  id?: string;
   title: string;
   email: string;
   summary: string;
