@@ -128,6 +128,7 @@ footer a:hover {
   flex-direction: row-reverse;
   font-size: 14px;
   color: gray;
+  cursor: pointer;
 }
 
 .delete:hover,
@@ -315,13 +316,13 @@ footer a:hover {
   color: black;
 }
 
-.post__edit a {
+.post__edit {
   text-decoration: none;
   color: gray;
   cursor: pointer;
 }
 
-.post__delete a {
+.post__delete {
   text-decoration: none;
   color: gray;
   cursor: pointer;
