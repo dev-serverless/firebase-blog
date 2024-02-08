@@ -351,3 +351,16 @@ footer a:hover {
 .form__error {
   color: red;
 }
+
+.loader {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 5px solid #2563ed;
+  border-radius: 50%;
+}
